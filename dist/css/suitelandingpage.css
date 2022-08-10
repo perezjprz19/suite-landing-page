@@ -1,0 +1,16 @@
+@import "//_variables.scss";
+h1 {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 4.875rem;
+  letter-spacing: -1px;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  color: rgb(23, 35, 57);
+}
+h1 span {
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=suitelandingpage.css.map */

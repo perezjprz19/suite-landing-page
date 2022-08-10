@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"suitelandingpage.css"}
+{"version":3,"sourceRoot":"","sources":["../../src/styles/typography/_mixins.scss","../../src/styles/suitelandingpage.scss","../../src/styles/_variables.scss"],"names":[],"mappings":"AAAQ;ACIR;EDII,aEKW;EFJX;EAKA;EACA;EACA;EAbA,aEUW;EFTX;ECEA,OCFoB;;ADIpB;EACI","file":"suitelandingpage.css"}

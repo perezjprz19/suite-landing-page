@@ -1,0 +1,72 @@
+@import "//_variables.scss";
+
+@mixin Regular-Font {
+    font-family: $primary-font;
+    font-weight: 400;
+}
+
+@mixin Bold-Font {
+    font-family: $primary-font;
+    font-weight: 700;
+}
+
+@mixin XL-Heading-Bold {
+    @include Bold-Font;
+    font-size:4.5rem;
+    line-height: 4.875rem;
+    letter-spacing: -1px;
+}
+
+@mixin XL-Heading-Regular {
+    @include XL-Heading-Bold;
+    @include Regular-Font;
+}
+
+@mixin L-Heading-Bold {
+    @include Bold-Font;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: -0.5px;
+}
+
+@mixin L-Heading-Regular {
+    @include  L-Heading-Bold;
+    @include Regular-Font;
+
+}
+
+@mixin M-Heading {
+    @include Bold-Font;
+    font-size:1.125rem;
+    line-height: 2rem;
+    letter-spacing: -0.2px;
+
+}
+
+@mixin S-Heading    {
+    @include Bold-Font;
+    font-size:1rem;
+    line-height: 1.625rem;
+    letter-spacing: -2.5px;
+}
+
+@mixin Quote {
+    @include Regular-Font;
+    font-size: 1.25rem;
+    line-height: 2.188rem;
+    letter-spacing: 0px;
+}
+
+@mixin Body {
+    @include Regular-Font;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    letter-spacing: 0px;
+}
+
+@mixin Footer {
+    @include Regular-Font;
+    font-size: .938rem;
+    line-height: 2rem;
+    letter-spacing:0px;
+}

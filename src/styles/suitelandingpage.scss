@@ -1,0 +1,12 @@
+@import 'variables';
+@import 'typography/_mixins.scss';
+
+
+h1  {
+    @include  XL-Heading-Regular;
+    color: $neutral-darkest-color;
+
+    span {
+        font-weight: 700;
+    }
+}
