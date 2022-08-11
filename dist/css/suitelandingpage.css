@@ -1,16 +1,54 @@
-@import "//_variables.scss";
-h1 {
-  font-family: "Epilogue", sans-serif;
-  font-weight: 700;
-  font-size: 4.5rem;
-  line-height: 4.875rem;
-  letter-spacing: -1px;
+body {
   font-family: "Epilogue", sans-serif;
   font-weight: 400;
+}
+
+h1 {
+  font-size: 2.375rem;
+  letter-spacing: -0.53px;
+  line-height: 2.75rem;
   color: rgb(23, 35, 57);
 }
 h1 span {
+  font-weight: 400;
+}
+
+.intro-section p {
+  color: rgb(73, 86, 109);
+}
+
+.stats {
+  font-family: "Epilogue", sans-serif;
   font-weight: 700;
+  color: rgb(23, 35, 57);
+}
+.stats p {
+  font-weight: 400;
+  color: rgb(73, 86, 109);
+}
+
+.testimonial-section {
+  background-color: rgb(23, 35, 57);
+}
+.testimonial-section h2 {
+  color: rgb(250, 248, 246);
+}
+.testimonial-section blockquote {
+  text-align: center;
+  color: rgb(243, 237, 231);
+  font-size: 1rem;
+  line-height: 2rem;
+  letter-spacing: 0.05px;
+}
+.testimonial-section cite {
+  color: rgb(250, 248, 246);
+}
+.testimonial-section cite .cite-name {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+}
+.testimonial-section cite .cite-source {
+  color: rgb(243, 237, 231);
 }
 
 /*# sourceMappingURL=suitelandingpage.css.map */

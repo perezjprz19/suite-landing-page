@@ -1,7 +1,6 @@
-@import "//_variables.scss";
+@import "..//variables";
 
 @mixin Regular-Font {
-    font-family: $primary-font;
     font-weight: 400;
 }
 
@@ -18,8 +17,10 @@
 }
 
 @mixin XL-Heading-Regular {
-    @include XL-Heading-Bold;
     @include Regular-Font;
+    font-size:4.5rem;
+    line-height: 4.875rem;
+    letter-spacing: -1px;
 }
 
 @mixin L-Heading-Bold {
@@ -30,8 +31,10 @@
 }
 
 @mixin L-Heading-Regular {
-    @include  L-Heading-Bold;
     @include Regular-Font;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: -0.5px;
 
 }
 

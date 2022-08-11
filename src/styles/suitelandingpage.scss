@@ -1,12 +1,66 @@
-@import 'variables';
-@import 'typography/_mixins.scss';
+@import "variables";
+@import 'typography/_mixins';
 
+body {
+    font-family: $primary-font;
+    @include Regular-Font;
+}
 
 h1  {
-    @include  XL-Heading-Regular;
+    font-size: 2.375rem;
+    letter-spacing: -0.53px;
+    line-height: 2.75rem;
     color: $neutral-darkest-color;
 
     span {
-        font-weight: 700;
+        @include Regular-Font;
     }
+}
+
+.intro-section {
+   
+   p{
+    color: $neutral-darker-color;
+   }
+}
+
+
+.stats {
+   @include Bold-Font;
+    color: $neutral-darkest-color;
+
+    p {
+        @include Regular-Font;
+        color: $neutral-darker-color;
+    }
+}
+
+
+.testimonial-section {
+    background-color: $neutral-darkest-color;
+
+    h2 {
+        color: $neutral-lightest-color;
+    }
+    
+    blockquote {
+        text-align: center;
+        color: $neutral-light-color;
+        font-size: 1rem;
+        line-height: 2rem;
+        letter-spacing: 0.05px;
+    }
+
+    cite {
+        color: $neutral-lightest-color;
+
+        .cite-name {
+            @include Bold-Font;
+        }
+
+        .cite-source {
+            color: $neutral-light-color;
+        }
+    }
+
 }
